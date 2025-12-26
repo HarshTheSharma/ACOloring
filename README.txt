@@ -1,4 +1,6 @@
-This project contains the submission for my Advanced Algotithms Final Project. 
+This project contains the submission for my Advanced Algorithms and Data Structures Final Project. 
+It implements Ant Colony Optimization (ACO) to find a low-conflict graph coloring: assign one of c colors to each of n nodes so that as few edges as possible connect two nodes of the same color. The output is the number of conflicts (bad edges) followed by the chosen color for each node. 
+
 To the run the Ant Colony Optimization Graph Coloring Algorithm with tests:
     ensure verify.cpp, runTests, and ACOloring.cpp are present
     remake the program with `make clean` and `make`
